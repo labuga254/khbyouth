@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -11,31 +11,27 @@
     <form action="register.php" method="POST">
         <h2>REGISTER HERE</h2>
         <div class="input-group">
-
-    <label for="phonenumber"><b>Phone number</b></label>
-    <input type="text" placeholder=" Enter number" number="phonenumber" required>
-    </div>
-    <div class="input-group">
-
-        <label for=" FULL NAMES"><b> FULL NAMES</b></label>
-        <input type="text" placeholder=" Enter NAMES" name=" FULL NAMES" required>
+            <label for="phonenumber"><b>Phone number</b></label>
+            <input type="text" placeholder="Enter number" name="phonenumber" required>
         </div>
         <div class="input-group">
-
+            <label for="FULLNAMES"><b>FULL NAMES</b></label>
+            <input type="text" placeholder="Enter NAMES" name="FULLNAMES" required>
+        </div>
+        <div class="input-group">
             <label for="username"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="username" required>
-            </div> <div class="input-group">
-
-                <label for=" psw"><b> Password</b></label>
-                <input type="text" placeholder="Enter password" name="username" required>
-                </div>
-    <div class="input-group">
-    <label for="psw"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Enter password" name="psw" required>
-</div>
-    <button type="submit">Register</button>
+        </div>
+        <div class="input-group">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="password" required>
+        </div>
+        <div class="input-group">
+            <label for="confirm_psw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm password" name="confirm_password" required>
+        </div>
+        <button type="submit">Register</button>
+    </form>
   </div>
-</form>
-
 </body>
 </html>
